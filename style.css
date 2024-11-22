@@ -9,3 +9,150 @@ html, body {
 body {
     font-family: verdana, arial, helvetica, sans-serif;
 }
+
+form{
+    margin: 100px 0 0 250px;
+}
+
+form p{
+    font-size: 20px;
+}
+
+label, input{
+    display: block;
+    width: 600px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+input{
+    border: 1px solid #FFD700;
+}
+
+input[type=button]{
+    height: 40px;
+    font-size: 20px;
+}
+
+textarea{
+    width: 600px;
+    height: 400px;
+    border: 1px solid #FFD700;
+    margin-top: 5px;
+}
+
+.nav{
+    text-align: center;
+    background-color: #FFD700;
+    padding: 2px 0 2px 0;
+    border: 1px solid #e7e7e7;
+}
+
+.nav li{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 40px 0 40px;
+    display: inline;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width: 900px;
+    height: 900px;
+    margin: 0 auto 0 auto;
+}
+
+/* .courses h4{
+    margin-top: 1px;
+} */
+/* commentato perché disallinea l'elenco nella pagina */
+
+.courses img{
+    float: left;
+    width: 170px;
+    height: 210px;
+    padding: 0 10px 10px 0;
+}
+
+.courses li{
+    list-style-type: none;
+    width: 900px;
+    height: 210px;
+}
+
+.courses p{
+    text-align: justify;
+    margin-top: 1px;
+}
+
+.me{
+    text-align: justify;
+}
+
+.me img{
+    float: left;
+    padding-right: 10px;
+}
+
+.cv ul{
+    padding-left: 0;
+}
+
+.cv li{
+    list-style-type: none;
+    text-align: justify;
+    border-bottom: 1px solid #FFD700;
+}
+
+.cv img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+}
+
+thead{
+    background-color: black;
+    color: #ffffff;
+}
+
+.calendar{
+    margin-top: 100px;
+}
+
+.calendar tr, .calendar td{
+    border: 1px solid #aaaaaa;
+}
+
+.lecture{
+    background-color: #ffffaa;
+}
+
+.nolecture{
+    background-color: #aaaaaa;
+}
+
+.hideme{
+    display: none;
+}
+
+.footer{
+    background-color: #FFD700;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer img{
+    width: 50px;
+}
+
+.footer li{
+    display: inline;
+}
